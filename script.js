@@ -4,9 +4,9 @@ let button = document.getElementById("button").addEventListener("click", functio
     let randomNumber = Math.floor(Math.random() * 11);
 
     if (randomNumber % 2 == 0) {
-        talk.innerHTML = "Sim!";
+        talk.innerHTML = "Yes!";
     } else {
-        talk.innerHTML = "Não!";
+        talk.innerHTML = "No!";
     }
 
     talk.style.animation = 'none';
